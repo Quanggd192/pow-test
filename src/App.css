@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+body {
+  min-height: 100vh;
+  background: url("https://i.pinimg.com/originals/58/8c/4b/588c4ba75cbd6dd9fe3c5bfafaaccdea.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  min-height: 900px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+a {
+  color: #FFF;
+  cursor: pointer;
+}
+.rc-pagination-next {
+  color: #FFF;
+  font-weight: bold;
+}
+.rc-pagination-prev {
+  color: #FFF;
+  font-weight: bold;
+}
+.rc-pagination-item-active {
+  border-color: green;
+  background: green;
+}
+.rc-pagination-item-active a {
+  color: #FFF;
+}
+.rc-pagination-item:hover{
+  border-color: green;
+}
+.rc-pagination-item a:hover{
+  color: green;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
